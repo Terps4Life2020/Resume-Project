@@ -7,7 +7,7 @@
 
  <title>Gabriel Pietrorazio Digital Résumé</title>
 
- <meta name="description" content="Merrill College of Journalism, UMD">
+ <meta name="Digital Résumé" content="Merrill College of Journalism, UMD">
  <meta name="author" content="Gabriel Pietrorazio">
 
 <!-- Bootstrap CSS -->
@@ -65,55 +65,42 @@
   padding-top: 0;
 }
 
-/*-- .Gabe {
-  margin: auto;
-  align: center;
-  border: solid 10px #001133;
-  border-radius: 50%;
-  width: 400px;
-} --*/
-
-/*-- #Gabe {
-  font-family: Helvetica serif;
-  color: #ccddff;
-  padding-top: 10px;
-  font-weight: bold;
-  -webkit-text-stroke: 2px #001133;
-  font-size: 80px;
-  text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-} --*/
-
-.resume {
-  font-family: Helvetica;
-  font-size: 60px;
-  text-align: center;
-  color: #000d33;
-  font-weight: bold;
-  padding: 40px;
-}
-
 @media screen and (max-width: 800px) {
   .resume {color: #1a0000}
 }
 
-/*-- .Profile{
+ .Profile{
   margin: auto;
-  align: center;
-  max-width: 600px;
-  border: 10px #001133 solid;
-  border-radius: 25px;
-} --*/
+  max-width: 500px;
+  border: 16px #001133 solid;
+  box-shadow: 11px 15px #cccccc;
+}
+
+@media screen and (max-width: 800px) {
+  .Profile {border: 16px #1a0000 solid}
+}
+
+.bio {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #001133;
+  padding: 30px;
+  background-color: #cccccc;
+  white-space: normal;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .bio {color: #1a0000}
+  .bio {padding: 30px}
+  .bio {background-color: #cccccc;}
+}
 
 </style>
 
 <!-- Start Bootstrap Navigation Header -->
   <nav class="navbar navbar-expand-lg navbar-black bg-blue">
-   <a class="navbar-brand" href="#"> Gabriel Pietrorazio </a>
+   <a class="navbar-brand" href="#"> Connect </a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -121,22 +108,22 @@
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
      <ul class="navbar-nav mr-auto">
        <li class="nav-item active">
-         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         <li class="nav-item">
+           <a class="nav-link" href="mailto: gabriel@fingerlakes1.com">Email Me</a>
+         </li>
        </li>
-       <li class="nav-item">
-         <a class="nav-link" href="https://fingerlakes1.com/gabe-pietrorazio/">FingerLakes1.com</a>
-       </li>
-       <li class="nav-item">
-          <a class="nav-link" href="https://muckrack.com/gabriel-pietrorazio">Muck Rack</a>
-        </li>
         <li class="nav-item">
            <a class="nav-link" href="https://twitter.com/GabePietrorazio">Twitter</a>
          </li>
          <li class="nav-item">
+           <a class="nav-link" href="https://fingerlakes1.com/gabe-pietrorazio/">FingerLakes1.com</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="https://muckrack.com/gabriel-pietrorazio">Muck Rack</a>
+          </li>
+         <li class="nav-item">
             <a class="nav-link" href="https://www.linkedin.com/in/gabriel-pietrorazio-3b1304127/">LinkedIn</a>
          </li>
-       <li class="nav-item"
-       </li>
      </ul>
    </div>
   </nav>
@@ -178,19 +165,25 @@
 
 <div class="container">
 
-<!-- <div class="row">
+
+<div class="row">
   <div class ="col-md-12">
-    <div class="resume"> About Me </div>
+    <div class="header"> About Me </div>
   </div>
 </div>
 
 <div class="row">
-    <div class="col-md-12">
-      <img src="Images/WHWS Radio.jpg" class="Profile"></img>
-    </div>
+  <div class="col-md-4">
+    <img src="Images/Pietrorazio EIJ.jpg" class="Profile"></img>
+  </div>
+
+  <div class="col-md-2"></div>
+
+  <div class="col-md-6">
+    <div class="bio"> I am a first-year master’s student and graduate teaching assistant at the Philip Merrill College of Journalism at the Universtiy of Maryland. I have worked extensively in overseeing several investigative reporting series from covering a violent Cayuga Nation leadership dispute to tracking COVID-related deaths inside nursing homes and elder absue cases in upstate New York. </div>
+  </div>
 </div>
 
-<p> I am a first-year master’s student and graduate teaching assistant at the Philip Merrill College of Journalism at the Universtiy of Maryland. I have worked extensively in overseeing several investigative reporting series from covering a violent Cayuga Nation leadership dispute to tracking COVID-related deaths inside nursing homes and elder absue cases in upstate New York. </p> -->
 
 <br></br>
 
@@ -198,10 +191,6 @@
     <div class ="col-md-12">
       <div class="header"> Experience </div>
     </div>
-</div>
-
-<div class="row">
-  <div class="col-md-12 space"> </div>
 </div>
 
 <div class="row">
@@ -414,7 +403,7 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">Federal government rules against Cayuga Nation's land-into-trust application in Cayuga, Seneca counties</h5>
-        <p>After 15-years, the U.S. Department of Interior finally ruled against the Cayuga Nation regarding their long-awaited federal reservation land into trust application.</p>
+        <p>After 15-years of waiting, the U.S. Department of Interior has finally ruled against the Cayuga Nation and their federal reservation land into trust application, citing recent violence along State Route 89.</p>
         <a href="https://fingerlakes1.com/2020/08/07/federal-government-rules-against-cayuga-nations-land-into-trust-application-in-cayuga-seneca-counties/" class="stretched-link">Read Here!</a>
       </div>
     </div>
@@ -660,12 +649,8 @@
 </div>
 
 <div class="row">
-  <div class="col-md-12 space"> </div>
-</div>
-
-<div class="row">
   <div class ="col-md-3">
-    <img src="Images/Philip Merrill.png" class="Merrill"</img>
+    <img src="Images/Merrill.png" class="Merrill"</img>
   </div>
 
   <div class ="col-md-6">
@@ -751,6 +736,9 @@
       <li>
       Inducted into the Pi Sigma Alpha [2020] and Lambda Pi Eta [2019] honor society chapters
       </li>
+      <li>
+      Served as an undergraduate teaching assistant for two sessions of Intro. to American Politics.
+      </li>
     </p>
   </div>
 </div>
@@ -772,13 +760,8 @@
 
 
 <div class="row">
-  <div class="col-md-12 space"> </div>
-</div>
-
-
-<div class="row">
   <div class ="col-md-3">
-    <img src="Images/CT SPJ.jpg" class="CTSPJ"</img>
+    <img src="Images/SPJ.jpg" class="SPJ"</img>
   </div>
 
   <div class="col-md-6">
@@ -802,24 +785,126 @@
   <div class ="col-md-9" class="awards">
     <p>
       <li>
-      ADD AWARD
+      “Talk of the Town,” a video podcast program received the runner-up nod, or second-place, in the hyperlocal category for a reporting series after connecting with the four state lawmakers from the House and Senate within our coverage area following the General Assembly session in June for long-form policy interviews ranging in conversations from offering mental health services to EMT and first responders to opening bear hunting laws.
       </li>
       <li>
-      ADD AWARD
+      An article titled “Eagle sculptures appear in meadow" placed third overall in the hyperlocal arts and entertainment category.
       </li>
       <li>
-      ADD AWARD
+      An article published by the <i>Town Times</i> and titled "Black bear sightings on the rise" received a finalist nod in the hyperlocal category for local reporting.
       </li>
       <li>
-      ADD AWARD
+      An article published by the <i>Town Times</i> and titled "Black bear sightings on the rise" received a finalist nod in the hyperlocal category.
+      </li>
+      <li>
+      An article published by the <i>Town Times</i> and titled "Young volunteer restores cemetery" had been honored as a finalist in the hyperlocal feature story category.
+      </li>
+      <li>
+      An article published by the <i>Town Times</i> and titled "Residents Recall the Flood of 1955" earned a finalist nod in the feature story category as well.
+      </li>
+      <li>
+      An article published by the <i>Town Times</i> and titled "The Justin B. Weaver Scholarship Fund: Area student receives scholarship" received a finalist nod in the hyperlocal feature story category too.
       </li>
     </p>
   </div>
 </div>
 
 <div class="row">
+  <div class="col-md-12 spacer"> </div>
+</div>
+
+<br></br>
+
+<div class="row">
+    <div class ="col-md-12">
+      <div class="header"> Professional Affiliations </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class ="col-md-4">
+    <img src="Images/SPJ.jpg" class="SPJ2"</img>
+  </div>
+
+  <div class="col-md-4">
+      <img src="Images/IRE.jpg" class="IRE"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/ONA.png" class="ONA"</img>
+  </div>
+</div>
+
+<div class="row">
   <div class="col-md-12 space"> </div>
 </div>
+
+<br></br>
+
+<div class="row">
+    <div class ="col-md-12">
+      <div class="header"> As Seen </div>
+    </div>
+</div>
+
+<div class="row">
+  <div class ="col-md-3">
+    <img src="Images/FingerLakes1.com.jpeg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Finger Lakes Times.jpg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Prime Publishers Inc.jpg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Olean.png" class="Seen"</img>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 space"> </div>
+</div>
+
+<div class="row">
+  <div class ="col-md-3">
+    <img src="Images/Diamondback.png" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Mirror.png" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Herald.jpg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/CPHN.jpg" class="Seen"</img>
+  </div>
+</div>
+
+<div class="row">
+  <div class ="col-md-3">
+    <img src="Images/WRFI.jpg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/WHWS.jpg" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Greenbelt.png" class="Seen"</img>
+  </div>
+
+  <div class="col-md-3">
+      <img src="Images/Debrief.png" class="Seen"</img>
+  </div>
+</div>
+
 
 
 <style>
@@ -830,7 +915,7 @@
   padding-top: 10px;
   font-weight: bold;
   text-align: left;
-  text-shadow: 4px 4px #001133;
+  text-shadow: 6px 6px #001133;
   font-size: 80px;
   /*-- text-shadow:
        3px 3px 0 #000,
@@ -852,8 +937,8 @@
   padding-bottom: 0;
   font-weight: bold;
   text-align: right;
-  text-shadow: 4px 4px #001133;
-  font-size: 70px;
+  text-shadow: 8px 8px #001133;
+  font-size: 100px;
   /*-- text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,
@@ -869,15 +954,17 @@
 
 .header {
   font-family: Helvetica;
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
-  color: #000d33;
+  color: #ccddff;;
+  text-shadow: 4.5px 4.5px #001133;
   font-weight: bold;
   padding: 40px;
+  -webkit-text-stroke: .5px black;
 }
 
 @media screen and (max-width: 800px) {
-  .header {color: #1a0000}
+  .header {color: #ffb3b3}
 }
 
 .title{
@@ -885,7 +972,7 @@
   font-size: 20px;
   color: black;
   font-weight: bold;
-  background-color: #ccd9ff;
+  background-color: #ccebff;
   padding: 5px;
 }
 
@@ -897,7 +984,7 @@
   font-family: Helvetica;
   font-size: 18px;
   color: black;
-  background-color: #e6ecff;
+  background-color: #e6f5ff;
   padding: 2.5px;
   padding-left: 5px;
 }
@@ -943,12 +1030,6 @@ font-size: 18px;
   padding-bottom: 10px;
 }
 
-/*-- .WHWS {
-    max-width: 100%;
-    height: auto;
-    align: center;
-  } --*/
-
 .Prime {
   max-width: 100%;
   height: auto;
@@ -958,13 +1039,14 @@ font-size: 18px;
 .Merrill{
   max-width: 100%;
   height: auto;
-  padding-bottom: 5px;
+  align: center;
+  padding-bottom: 10px;
 }
 
 .HWS{
   max-width: 100%;
   height: auto;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .FLTimes {
@@ -987,10 +1069,43 @@ font-size: 18px;
   padding: 15px;
 }
 
-.CTSPJ {
-  max-width: 75%;
+.SPJ {
+  max-width: 100%;
+  padding-bottom: 10px;
+  align: center;
   height: auto;
-  padding-bottom: 5px;
+}
+
+.spacer {
+  padding-bottom: 30px;
+}
+
+.SPJ2 {
+  max-width: 100%;
+  padding: 10px;
+  align: center;
+  height: auto;
+}
+
+.ONA{
+  max-width: 100%;
+  padding: 10px;
+  align: center;
+  height: auto;
+}
+
+.IRE {
+  max-width: 100%;
+  padding: 10px;
+  align: center;
+  height: auto;
+}
+
+.Seen {
+  max-width: 100%;
+  padding: 10px;
+  align: center;
+  height: auto;
 }
 
 </style>
