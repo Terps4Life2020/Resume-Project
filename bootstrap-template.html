@@ -109,7 +109,6 @@
   border-radius: 25px;
 } --*/
 
-
 </style>
 
 <!-- Start Bootstrap Navigation Header -->
@@ -435,14 +434,6 @@
     </div>
   </div>
 </div>
-
-
-<div class="row">
-  <div class="col-md-12 space"> </div>
-</div>
-
-
-<br></br>
 
 <!-- <div class="row">
   <div class ="col-md-3">
@@ -776,40 +767,41 @@
   padding-top: 10px;
   font-weight: bold;
   text-align: left;
-  -webkit-text-stroke: 2px #001133;
+  text-shadow: 4px 4px #001133;
   font-size: 80px;
-  text-shadow:
+  /*-- text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000;
+       1px 1px 0 #000; --*/
 }
 
 @media screen and (max-width: 800px) {
   .display-4 {color: #ffb3b3}
-  .display-4 {-webkit-text-stroke: 2px #1a0000}
+  .display-4 {text-shadow: 4px 4px #1a0000}
 }
 
 .lead {
   font-family: Helvetica serif;
   color: #ccddff;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 0;
   font-weight: bold;
   text-align: right;
-  -webkit-text-stroke: 2px #001133;
+  text-shadow: 4px 4px #001133;
   font-size: 70px;
-  text-shadow:
+  /*-- text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,
       1px -1px 0 #000,
       -1px 1px 0 #000,
-       1px 1px 0 #000;
+       1px 1px 0 #000; --*/
 }
 
 @media screen and (max-width: 800px) {
   .lead {color: #ffb3b3}
-  .lead {-webkit-text-stroke: 2px #1a0000}
+  .lead {text-shadow: 4px 4px #1a0000}
 }
 
 .header {
@@ -844,6 +836,7 @@
   color: black;
   background-color: #e6ecff;
   padding: 2.5px;
+  padding-left: 5px;
 }
 
 @media screen and (max-width: 800px) {
@@ -867,6 +860,10 @@ font-size: 18px;
   color: #00061a;
   padding: 5px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 775px) {
+  .location {padding-top: 20px}
 }
 
 .date {
@@ -915,6 +912,12 @@ font-size: 18px;
 
 .col-md-9 {
   padding: 10px;
+  background-color: #e6f5ff;
+  box-shadow: 5px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .col-md-9 {background-color: #ffcccc}
 }
 
 .space {
