@@ -5,7 +5,7 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
- <title>Gabriel Pietrorazio</title>
+ <title>Gabriel Pietrorazio Digital Résumé</title>
 
  <meta name="description" content="Merrill College of Journalism, UMD">
  <meta name="author" content="Gabriel Pietrorazio">
@@ -23,6 +23,29 @@
   background-color: #ccd9ff;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar-black {background-color: #ffb3b3}
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color:  #001133;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-brand {color: #330000}
+}
+
+.nav-item {
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color:  #001133;
+}
+
 .jumbotron-image {
   background-position: center center;
   background-repeat: no-repeat;
@@ -38,21 +61,19 @@
 --*/
 
 .spacer {
-  padding: 50px;
+  padding: 10px;
   padding-top: 0;
 }
 
-.img {
+/*-- .Gabe {
   margin: auto;
-  padding-top: 20px;
-  border: solid 10px blue;
+  align: center;
+  border: solid 10px #001133;
   border-radius: 50%;
-  opacity: 0.3;
-  width: 300px;
-  height: 300px;}
-}
+  width: 400px;
+} --*/
 
-#Gabe {
+/*-- #Gabe {
   font-family: Helvetica serif;
   color: #ccddff;
   padding-top: 10px;
@@ -65,13 +86,33 @@
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
+} --*/
+
+.resume {
+  font-family: Helvetica;
+  font-size: 60px;
+  text-align: center;
+  color: #000d33;
+  font-weight: bold;
+  padding: 40px;
 }
+
+@media screen and (max-width: 800px) {
+  .resume {color: #1a0000}
+}
+
+.Profile{
+  margin: auto;
+  max-width: 400px;
+  border: 5px #001133;
+}
+
 
 </style>
 
 <!-- Start Bootstrap Navigation Header -->
   <nav class="navbar navbar-expand-lg navbar-black bg-blue">
-   <a class="navbar-brand" href="#">Gabriel Pietrorazio</a>
+   <a class="navbar-brand" href="#"> Gabriel Pietrorazio </a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -102,21 +143,33 @@
 
 
   <!-- Start Jumbotron -->
-  <div class="jumbotron jumbotron-image shadow" style="background-image: url(https://pbs.twimg.com/profile_banners/1161409391960215558/1599399719/600x200);">
+  <div class="jumbotron jumbotron-image shadow" style="background-image: url(Images/Farmer.jpg);">
  <h1 class="display-4">"It's a promise, a pact, a partnership with the people."</h1>
- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+ <p class="lead"> - Gabriel Pietrorazio </p>
  <hr class="my-4">
- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
 </div>
   <!-- End Jumbotron -->
 
+
 <!-- <div class="rectangle"></div> -->
+
 
 <br></br>
 
-<img scr="https://twitter.com/GabePietrorazio/photo"></img>
 
-<div id="Gabe">Gabriel Pietrorazio</div>
+  <!--
+<div class="row">
+  <div class="col-md-2"> </div>
+
+  <div class="col-md-8">
+    <img src="Images/EIJ Banner Crop New copy.jpg" class="Gabe"></img>
+    <div id="Gabe">Gabriel Pietrorazio</div>
+  </div>
+
+
+  <div class="col-md-2"> </div>
+</div> -->
+
 
 <div class="row">
   <div class="col-md-12 spacer"> </div>
@@ -124,11 +177,28 @@
 
 <div class="container">
 
+<div class="row">
+  <div class ="col-md-12">
+    <div class="resume"> About Me </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+      <img src="Images/WHWS Radio.jpg" class="Profile"></img>
+    </div>
+
+    <div class="col-md-8">
+      <p>_I am a first-year master’s student and graduate teaching assistant at the Philip Merrill College of Journalism at the Universtiy of Maryland. I have worked extensively in overseeing several investigative reporting series from covering a violent Cayuga Nation leadership dispute to tracking COVID-related deaths inside nursing homes and elder absue cases in upstate New York. </p>
+    </div>
+</div>
+
+
 <br></br>
 
 <div class="row">
     <div class ="col-md-12">
-      <div class="header"> Professional Experience </div>
+      <div class="header"> Experience </div>
     </div>
 </div>
 
@@ -175,19 +245,6 @@
 
 
 <div class="row">
-  <div class ="col-md-6">
-    <div class="row no-gutters bg-light position-relative">
-      <div class="col-md-6 mb-md-0 p-md-4">
-        <img src="https://fingerlakes1.com/wp-content/uploads/2020/10/Handmaids-Supreme-Court-scaled.jpg" class="w-100" alt="Women's March 2020 in Washington, D.C.">
-      </div>
-
-      <div class="col-md-6 position-static p-4 pl-md-0">
-        <h5 class="mt-0">Thousands flock to Women's March in Washington, D.C. and cities across the U.S.</h5>
-        <p>INSERT STORY DESCRIPTION</p>
-        <a href="https://fingerlakes1.com/2020/10/18/thousands-flock-to-womens-march-in-washington-d-c-and-cities-across-the-u-s/" class="stretched-link">Read Here!</a>
-      </div>
-    </div>
-  </div>
 
   <div class="col-md-6">
     <div class="row no-gutters bg-light position-relative">
@@ -197,8 +254,22 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">Late Justice Ruth Bader Ginsburg remembered at Supreme Court</h5>
-        <p>INSERT STORY DESCRIPTION</p>
+        <p>It was a solemn Saturday just in front of the steps to the U.S. Supreme Court in the nation's capital one night after the death of the late Justice Ruth Bader Ginsburg.</p>
         <a href="https://fingerlakes1.com/2020/09/22/ruth-bader-ginsburg-remembered-at-supreme-court/" class="stretched-link">Read Here!</a>
+      </div>
+    </div>
+  </div>
+
+  <div class ="col-md-6">
+    <div class="row no-gutters bg-light position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="https://fingerlakes1.com/wp-content/uploads/2020/10/Handmaids-Supreme-Court-scaled.jpg" class="w-100" alt="Women's March 2020 in Washington, D.C.">
+      </div>
+
+      <div class="col-md-6 position-static p-4 pl-md-0">
+        <h5 class="mt-0">Thousands flock to Women's March in Washington, D.C. and cities across the U.S.</h5>
+        <p>Despite a global pandemic, women in the thousands marched through the streets in the nation's capital just days ahead of the 2020 Election.</p>
+        <a href="https://fingerlakes1.com/2020/10/18/thousands-flock-to-womens-march-in-washington-d-c-and-cities-across-the-u-s/" class="stretched-link">Read Here!</a>
       </div>
     </div>
   </div>
@@ -263,7 +334,7 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">DEBRIEF REWIND: Inside the prison oversight bill that awaits Cuomo's signature</h5>
-        <p>What does prison oversight look like in New York state? Phillip Miller, the associate director of policy at the Correctional Association of New York speaks about the bill that just passed and aims at enhancing accountability inside the state's Department of Corrections and Community Supervision correctional facilities.</p>
+        <p>What does prison oversight look like in New York state? Phillip Miller, the associate director of policy at the Correctional Association of New York speaks about the bill that just passed and aims at enhancing accountability inside the state's Department of Corrections and Community Supervision facilities.</p>
         <a href="https://fingerlakes1.com/2020/08/20/debrief-rewind-inside-the-prison-oversight-bill-that-awaits-cuomos-signature-podcast/" class="stretched-link">Listen Here!</a>
       </div>
     </div>
@@ -277,7 +348,7 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">DAILY DEBRIEF: Dairy farms suffering amid the COVID-19 pandemic </h5>
-        <p>Cows still need to be milked, even during the COVID-19 pandemic. Dairy farms across New York state are financially suffering with the unprecedented dropping of milk prices, which has prompted co-ops dump milk - and even considered an early indicator of a looming global recession.</p>
+        <p>Cows still need to be milked, even during the COVID-19 pandemic. Dairy farms across New York state are financially suffering with the unprecedented dropping of milk prices, which has prompted co-ops dump milk - and even considered an early indicator of a looming global recession, according to Kim Skellie of El-Vi Farms in Newark.</p>
         <a href="https://fingerlakes1.com/2020/05/05/daily-debrief-dairy-farms-suffering-amid-the-covid-19-pandemic-podcast/" class="stretched-link">Listen Here!</a>
       </div>
     </div>
@@ -345,7 +416,7 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">Federal government rules against Cayuga Nation's land-into-trust application in Cayuga, Seneca counties</h5>
-        <p>INSERT STORY DESCRIPTION.</p>
+        <p>After 15-years, the U.S. Department of Interior finally ruled against the Cayuga Nation regarding their long-awaited federal reservation land into trust application.</p>
         <a href="https://fingerlakes1.com/2020/08/07/federal-government-rules-against-cayuga-nations-land-into-trust-application-in-cayuga-seneca-counties/" class="stretched-link">Read Here!</a>
       </div>
     </div>
@@ -359,7 +430,7 @@
 
       <div class="col-md-6 position-static p-4 pl-md-0">
         <h5 class="mt-0">Family in search of answers, as life comes to an end at Elm Manor </h5>
-        <p>INSERT STORY DESCRIPTION.</p>
+        <p>Bill Vishneski Sr. suffered from a stroke while living inside Elm Manor. It had gone undiagnosed for days, which ended-up causing him to lose his own life, but now his family seeks to hold the New York nursing home accountable for their alleged negligence.</p>
         <a href="https://fingerlakes1.com/2020/08/04/family-in-search-of-answers-as-life-comes-to-an-end-at-elm-manor/" class="stretched-link">Read Here!</a>
       </div>
     </div>
@@ -374,7 +445,7 @@
 
 <br></br>
 
-<div class="row">
+<!-- <div class="row">
   <div class ="col-md-3">
     <img src="Images/WHWS.jpg" class="WHWS"</img>
   </div>
@@ -409,7 +480,7 @@
       </li>
     </p>
   </div>
-</div>
+</div> -->
 
 
 <div class="row">
@@ -493,8 +564,6 @@
       <li>
       Created and produced a weekly video-podcast program titled “Talk of the Town,” securing elected officials, municipal workers and community members, while earning more than 11,000 views online within our first 11 programs; wrote accompanied print-stories for each interview
       </li>
-      <li>
-      MENTION WINNING AWARD
     </p>
   </div>
 </div>
@@ -598,12 +667,11 @@
   <div class ="col-md-12">
     <div class="header"> Education </div>
   </div>
+</div>
 
 <div class="row">
   <div class="col-md-12 space"> </div>
 </div>
-
-<br></br>
 
 <div class="row">
   <div class ="col-md-3">
@@ -611,7 +679,7 @@
   </div>
 
   <div class ="col-md-6">
-    <div class="title"> Philip Merrill College of Journalism, University of Maryland </div>
+    <div class="title"> University of Maryland </div>
     <div class="business"> Master's in Journalism </div>
   </div>
 
@@ -708,6 +776,7 @@
   color: #ccddff;
   padding-top: 10px;
   font-weight: bold;
+  text-align: left;
   -webkit-text-stroke: 2px #001133;
   font-size: 80px;
   text-shadow:
@@ -718,13 +787,43 @@
        1px 1px 0 #000;
 }
 
+@media screen and (max-width: 800px) {
+  .display-4 {color: #ffb3b3}
+  .display-4 {-webkit-text-stroke: 2px #1a0000}
+}
+
+.lead {
+  font-family: Helvetica serif;
+  color: #ccddff;
+  padding-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  -webkit-text-stroke: 2px #001133;
+  font-size: 70px;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+@media screen and (max-width: 800px) {
+  .lead {color: #ffb3b3}
+  .lead {-webkit-text-stroke: 2px #1a0000}
+}
+
 .header {
   font-family: Helvetica;
   font-size: 50px;
   text-align: center;
-  color: black;
+  color: #000d33;
   font-weight: bold;
   padding: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .header {color: #1a0000}
 }
 
 .title{
@@ -736,6 +835,10 @@
   padding: 5px;
 }
 
+@media screen and (max-width: 800px) {
+  .title {background-color: #ffb3b3}
+}
+
 .business{
   font-family: Helvetica;
   font-size: 18px;
@@ -744,17 +847,25 @@
   padding: 2.5px;
 }
 
+@media screen and (max-width: 800px) {
+  .business {background-color: #ffcccc}
+}
+
 li{
 padding: 5px;
 font-family: Helvetica;
-color: black;
-font-size: 16px;
+color: #000d33;
+font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  li {color: #1a0000}
 }
 
 .location {
   font-family: Helvetica;
   font-size: 20px;
-  color: black;
+  color: #00061a;
   padding: 5px;
   font-weight: bold;
 }
@@ -773,10 +884,11 @@ font-size: 16px;
   padding-bottom: 10px;
 }
 
-.WHWS {
+/*-- .WHWS {
     max-width: 100%;
     height: auto;
-  }
+    align: center;
+  } --*/
 
 .Prime {
   max-width: 100%;
@@ -803,7 +915,6 @@ font-size: 16px;
 }
 
 .col-md-9 {
-  background-color: #e6eeff;
   padding: 10px;
 }
 
